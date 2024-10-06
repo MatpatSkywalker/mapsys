@@ -104,7 +104,7 @@ ul {
 }
 
 .pcs img {
-    width: 450px;
+    width: 300px;
     height: auto;
     display: flexbox;
 
@@ -148,25 +148,29 @@ footer {
     }
 
     .mapa {
-        width: 430px;
-        display: flexbox;
+        width: 300px;
         grid-area: mapa;
+        text-align: left;
+        display: flexbox;
+    }
+    .mapa h2{
+        font-size: medium;
     }
 
     .mapa iframe {
-        width: 450px;
+        width: 300px !important;
 
     }
 
     .video {
-        width: 430px;
+        width: 300px;
         padding-top: 20px;
         display: flexbox;
         grid-area: video;
     }
 
     .video iframe {
-        width: 430px;
+        width: 300px !important;
         display: flexbox;
     }
 
@@ -175,6 +179,15 @@ footer {
         display: flexbox;
         grid-area: pagos;
     }
+    .pagos h2{
+        font-size: medium;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 80px;
+        right: 40px;
+    }
+
 }
 
 @media (max-width:949px) {
@@ -255,22 +268,11 @@ footer {
     }
 }
 
-.mapa {
-    text-align: center;
-    align-items: center;
-}
 
 .pagos {
     text-align: center;
 }
 
-footer h2 {
-    text-align: center;
-}
-
-footer h3 {
-    text-align: center;
-}
 
 @media (max-width:1200px) {
     footer {
@@ -594,15 +596,17 @@ footer h3 {
 }
 
 .baja {
-    height: 600px;
+    height: 300px;
     width: auto;
 }
 
 .mapsys img {
-    height: 600px;
+    height: 300px;
     width: auto;
 }
-
+.gaming img{
+    width: 300px;
+}
 .gaming {
     background-color: black;
     display: flexbox;
@@ -638,7 +642,9 @@ footer h3 {
     background-color: black;
     display: flexbox;
 }
-
+.oficina img{
+    width: 300px;
+}
 .oficina div {
     display: inline-block;
     margin: 100px;
@@ -669,7 +675,9 @@ footer h3 {
     background-color: black;
     display: flexbox;
 }
-
+.edicion img{
+    width: 300px;
+}
 .edicion ul li {
     color: white;
 }
