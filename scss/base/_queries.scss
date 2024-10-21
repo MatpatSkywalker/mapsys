@@ -1,0 +1,265 @@
+@media (max-width:600) {
+    .pcs div {
+        img {
+            width: 250px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    footer {
+        background-color: grey;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 450px 450px 450px;
+        grid-template-areas:
+            "mapa"
+            "video"
+            "pagos"
+        ;
+    }
+
+    .mapa {
+        width: 300px;
+        grid-area: mapa;
+        text-align: left;
+        display: flexbox;
+    }
+
+    .mapa h2 {
+        font-size: medium;
+    }
+
+    .mapa iframe {
+        width: 300px !important;
+
+    }
+
+    .video {
+        width: 300px;
+        padding-top: 20px;
+        display: flexbox;
+        grid-area: video;
+    }
+
+    .video iframe {
+        width: 300px !important;
+        display: flexbox;
+    }
+
+    .pagos {
+        width: 450px;
+        display: flexbox;
+        grid-area: pagos;
+    }
+
+    .pagos h2 {
+        font-size: medium;
+    }
+
+    .whatsapp {
+        position: fixed;
+        bottom: 80px;
+        right: 40px;
+    }
+
+}
+
+@media (max-width:949px) {
+    footer {
+        background-color: grey;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 450px 450px 450px;
+        grid-template-areas:
+            "mapa mapa"
+            "video video"
+            "pagos pagos"
+        ;
+    }
+
+    .mapa {
+        width: 430px;
+        display: flexbox;
+        grid-area: mapa;
+        align-items: center;
+    }
+
+    .mapa iframe {
+        width: 450px;
+
+    }
+
+    .video {
+        width: 430px;
+        padding-top: 20px;
+        display: flexbox;
+        grid-area: video;
+        align-items: center;
+    }
+
+    .video iframe {
+        width: 430px;
+        display: flexbox;
+        padding-top: 20px;
+    }
+
+    .pagos {
+        width: 450px;
+        display: flexbox;
+        grid-area: pagos;
+        align-items: center;
+    }
+}
+
+@media (max-width:1024px) {
+    footer {
+        background-color: grey;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 450px 450px 450px;
+    }
+
+    .mapa {
+        width: 450px;
+    }
+
+    .mapa iframe {
+        width: 450px;
+    }
+
+    .video {
+        width: 450px;
+        display: flexbox;
+    }
+
+    .video iframe {
+        width: 450px;
+    }
+
+    .pagos {
+        width: 450px;
+        padding-top: 100px;
+    }
+}
+
+@media (max-width:1200px) {
+    footer {
+        background-color: grey;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 450px 450px 450px;
+    }
+
+    .mapa {
+        width: 450px;
+    }
+
+    .mapa iframe {
+        width: 450px;
+    }
+
+    .video {
+        width: 450px;
+        display: flexbox;
+    }
+
+    .video iframe {
+        width: 450px;
+    }
+
+    .pagos {
+        padding-top: 100px;
+        grid-row: span 2;
+    }
+}
+
+@media (max-width:1462px) {
+    footer {
+        background-color: grey;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 450px 450px 450px;
+    }
+
+    .mapa {
+        width: 450px;
+    }
+
+    .mapa iframe {
+        width: 450px;
+    }
+
+    .video {
+        width: 450px;
+        display: flexbox;
+    }
+
+    .video iframe {
+        width: 450px;
+    }
+
+    .pagos {
+        padding-top: 100px;
+        grid-row: span 2;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .perifericos {
+        width: 100%;
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 250px;
+        gap: 50px
+    }
+}
+
+@media (max-width:792) {
+    .oficina {
+        width: 350px;
+    }
+
+    .gaming {
+        width: 350px;
+    }
+
+    .edicion {
+        width: 350px;
+    }
+
+    .mapsys {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:792) {
+    .oficina {
+        width: 30%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+    }
+
+    .gaming {
+        width: 350px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+    }
+
+    .edicion {
+        width: 350px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+    }
+
+    .mapsys {
+        width: 350px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+    }
+}

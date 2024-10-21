@@ -1,0 +1,28 @@
+footer {
+    background-color: $color_fondo;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px
+}
+
+.pagos {
+    text-align: center;
+}
+
+.mapa {
+    text-align: center;
+    align-items: center;
+}
+
+.pagos {
+    text-align: center;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer h3 {
+    text-align: center;
+}
