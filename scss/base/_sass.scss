@@ -3,3 +3,253 @@ $color_fondo:grey;
 $color-body:black;
 $color-letras:white;
 $color_bordes:red;
+
+@mixin pre-armadas ($background, $flexbox){
+    background-color: $background;
+    display: $flexbox;
+}
+
+.gaming{
+    @include pre-armadas(black, flexbox)
+}
+
+.oficina{
+    @include pre-armadas(black, flexbox)
+}
+
+.edicion{
+    @include pre-armadas(black, flexbox)
+}
+
+.mapsys{
+    @include pre-armadas(black, flexbox)
+}
+
+@mixin div-armadas ($flex, $margen, $aling){
+    display: $flex;
+    margin: $margen;
+    text-align: $aling;
+}
+
+.gaming div{
+    @include div-armadas(inline-block, 100px , center)
+}
+
+.oficina div{
+    @include div-armadas(inline-block, 100px, center)
+}
+
+.edicion div{
+    @include div-armadas(inline-block, 100px, center)
+}
+
+.mapsys div{
+    @include div-armadas(inline-block, 120px, center)
+}
+
+@mixin a-armadas ($color, $decoration){
+    color: $color;
+    text-decoration: $decoration;
+}
+
+.gaming a{
+    @include a-armadas(white, none)
+}
+
+.oficina a{
+    @include a-armadas(white, none)
+}
+
+.edicion a{
+    @include a-armadas(white, none)
+}
+
+.mapsys a{
+    @include a-armadas(white, none)
+}
+
+.reci a{
+    @include a-armadas(white, none)
+}
+
+.perifericos a{
+    @include a-armadas(white, none)
+}
+
+.pcs a{
+    @include a-armadas(white, none)
+}
+
+@mixin img-armadas ($altura){
+    width: $altura;
+}
+
+.mapsys img{
+    @include img-armadas(300px)
+}
+
+.gaming img{
+    @include img-armadas(300px)
+}
+
+.baja img{
+    @include img-armadas(300px)
+}
+
+.oficina img{
+    @include img-armadas(300px)
+}
+
+.edicion img{
+    @include img-armadas(300px)
+}
+
+@mixin color ($color){
+    color: $color;
+}
+
+.gaming ul li{
+    @include color(white)
+}
+
+.oficina ul li{
+    @include color(white)
+}
+
+.edicion ul li{
+    @include color(white)
+}
+
+.mapsys ul li{
+    @include color(white)
+}
+
+.gaming h2{
+    @include color(white)
+}
+
+.oficina h1{
+    @include color(white)
+}
+
+.edicion h2{
+    @include color(white)
+}
+
+.mapsys h2{
+    @include color(white)
+}
+
+.formulario h1{
+    @include color(white)
+}
+
+.formulario h2{
+    @include color(white)
+}
+
+.perifericos h1{
+    @include color(white)
+}
+
+.recomendados {
+    @include color(white)
+}
+
+@mixin boton-comprar ($display, $borde, $size, $color){
+    display: $display;
+    border: $borde;
+    font-size: $size;
+    color: $color;
+}
+
+.gaming h3{
+    @include boton-comprar(inline, 2px solid red, 20px, white)
+}
+
+.oficina h2{
+    @include boton-comprar(inline, 2px solid red, 20px, white)
+}
+
+.edicion h3{
+    @include boton-comprar(inline, 2px solid red, 20px, white)
+}
+
+.mapsys h3{
+    @include boton-comprar(inline, 2px solid red, 20px, white)
+}
+
+@mixin faq ($aling, $color, $padding){
+    text-align: $aling;
+    color: $color;
+    padding: $padding;
+}
+
+.p1 h1{
+    @include faq(center, white, 20px)
+}
+
+.p1 h2{
+    @include faq(center, red, 20px)
+}
+
+.p2 h2{
+    @include faq(center, white, 20px)
+}
+
+.p2 h3{
+    @include faq(center, red, 20px)
+}
+
+.p3 h2{
+    @include faq(center, white, 20px)
+}
+
+.p3 h3{
+    @include faq(center, red, 20px)
+}
+
+.p4 h2{
+    @include faq(center, white, 20px)
+}
+
+.p4 h3{
+    @include faq(center, red, 20px)
+}
+
+@mixin back($backcolor){
+    background-color: $backcolor;
+}
+
+.p {
+    @include back(black)
+}
+
+.reci {
+    @include back(black)
+}
+
+.carruseles {
+    @include back(black)
+}
+
+.formulario {
+    @include back(black)
+}
+
+.recomendados {
+    @include back(black)
+}
+
+@mixin reci($aling, $color){
+    text-align: $aling;
+    color: $color;
+}
+
+.reci h1{
+    @include reci(center, white)
+}
+
+.reci h2{
+    @include reci(center, white )
+}

@@ -1,4 +1,206 @@
 /* VARIABLES*/
+.gaming {
+  background-color: black;
+  display: flexbox; }
+
+.oficina {
+  background-color: black;
+  display: flexbox; }
+
+.edicion {
+  background-color: black;
+  display: flexbox; }
+
+.mapsys {
+  background-color: black;
+  display: flexbox; }
+
+.gaming div {
+  display: inline-block;
+  margin: 100px;
+  text-align: center; }
+
+.oficina div {
+  display: inline-block;
+  margin: 100px;
+  text-align: center; }
+
+.edicion div {
+  display: inline-block;
+  margin: 100px;
+  text-align: center; }
+
+.mapsys div {
+  display: inline-block;
+  margin: 120px;
+  text-align: center; }
+
+.gaming a {
+  color: white;
+  text-decoration: none; }
+
+.oficina a {
+  color: white;
+  text-decoration: none; }
+
+.edicion a {
+  color: white;
+  text-decoration: none; }
+
+.mapsys a {
+  color: white;
+  text-decoration: none; }
+
+.reci a {
+  color: white;
+  text-decoration: none; }
+
+.perifericos a {
+  color: white;
+  text-decoration: none; }
+
+.pcs a {
+  color: white;
+  text-decoration: none; }
+
+.mapsys img {
+  width: 300px; }
+
+.gaming img {
+  width: 300px; }
+
+.baja img {
+  width: 300px; }
+
+.oficina img {
+  width: 300px; }
+
+.edicion img {
+  width: 300px; }
+
+.gaming ul li {
+  color: white; }
+
+.oficina ul li {
+  color: white; }
+
+.edicion ul li {
+  color: white; }
+
+.mapsys ul li {
+  color: white; }
+
+.gaming h2 {
+  color: white; }
+
+.oficina h1 {
+  color: white; }
+
+.edicion h2 {
+  color: white; }
+
+.mapsys h2 {
+  color: white; }
+
+.formulario h1 {
+  color: white; }
+
+.formulario h2 {
+  color: white; }
+
+.perifericos h1 {
+  color: white; }
+
+.recomendados {
+  color: white; }
+
+.gaming h3 {
+  display: inline;
+  border: 2px solid red;
+  font-size: 20px;
+  color: white; }
+
+.oficina h2 {
+  display: inline;
+  border: 2px solid red;
+  font-size: 20px;
+  color: white; }
+
+.edicion h3 {
+  display: inline;
+  border: 2px solid red;
+  font-size: 20px;
+  color: white; }
+
+.mapsys h3 {
+  display: inline;
+  border: 2px solid red;
+  font-size: 20px;
+  color: white; }
+
+.p1 h1 {
+  text-align: center;
+  color: white;
+  padding: 20px; }
+
+.p1 h2 {
+  text-align: center;
+  color: red;
+  padding: 20px; }
+
+.p2 h2 {
+  text-align: center;
+  color: white;
+  padding: 20px; }
+
+.p2 h3 {
+  text-align: center;
+  color: red;
+  padding: 20px; }
+
+.p3 h2 {
+  text-align: center;
+  color: white;
+  padding: 20px; }
+
+.p3 h3 {
+  text-align: center;
+  color: red;
+  padding: 20px; }
+
+.p4 h2 {
+  text-align: center;
+  color: white;
+  padding: 20px; }
+
+.p4 h3 {
+  text-align: center;
+  color: red;
+  padding: 20px; }
+
+.p {
+  background-color: black; }
+
+.reci {
+  background-color: black; }
+
+.carruseles {
+  background-color: black; }
+
+.formulario {
+  background-color: black; }
+
+.recomendados {
+  background-color: black; }
+
+.reci h1 {
+  text-align: center;
+  color: white; }
+
+.reci h2 {
+  text-align: center;
+  color: white; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -47,9 +249,6 @@ ul {
   align-items: center;
   background-color: black; }
 
-a {
-  color: black; }
-
 .ofe {
   text-align: center;
   font-size: 100px;
@@ -71,10 +270,6 @@ a {
   display: inline;
   border: 2px solid white;
   font-size: 20px; }
-
-.pcs div a {
-  text-decoration: none;
-  color: white; }
 
 .pcs div img {
   width: 300px;
@@ -98,19 +293,6 @@ a {
 .formulario div {
   padding: 10px; }
 
-.formulario div h1 {
-  color: white; }
-
-.formulario div h2 {
-  color: white; }
-
-.formulario {
-  background-color: black; }
-
-.recomendados {
-  background-color: black;
-  color: white; }
-
 .recomendados h1 {
   text-align: center; }
 
@@ -120,17 +302,10 @@ a {
   padding-bottom: 20px;
   background-color: black; }
 
-.perifericos h1 {
-  color: white; }
-
 .perifericos img {
   height: 100%;
   width: 100%;
   object-fit: contain; }
-
-.perifericos a {
-  color: white;
-  text-decoration: none; }
 
 .perifericos {
   width: 100%;
@@ -161,196 +336,18 @@ a {
 .owl-carousel a {
   text-decoration: none; }
 
-.carruseles {
-  background-color: black; }
-
 .carruseles h2 {
   color: white;
   padding-top: 40px; }
-
-.reci {
-  background-color: black; }
 
 .reci div {
   text-align: center;
   padding: 30px; }
 
-.reci h1 {
-  text-align: center;
-  color: white; }
-
-.reci h2 {
-  text-align: center;
-  color: white; }
-
 .reci h3 {
   display: inline;
   border: 2px solid red;
   font-size: 20px; }
-
-.reci div a {
-  color: white;
-  text-decoration: none; }
-
-.p1 h1 {
-  text-align: center;
-  color: white;
-  padding: 20px; }
-
-.p1 h2 {
-  text-align: center;
-  color: red;
-  padding: 20px; }
-
-.p2 h2 {
-  text-align: center;
-  color: white;
-  padding: 20px; }
-
-.p2 h3 {
-  text-align: center;
-  color: red;
-  padding: 20px; }
-
-.p3 h2 {
-  text-align: center;
-  color: white;
-  padding: 20px; }
-
-.p3 h3 {
-  text-align: center;
-  color: red;
-  padding: 20px; }
-
-.p4 h2 {
-  text-align: center;
-  color: white;
-  padding: 20px; }
-
-.p4 h3 {
-  text-align: center;
-  color: red;
-  padding: 20px; }
-
-.p {
-  background-color: black; }
-
-.baja {
-  height: 300px;
-  width: auto; }
-
-.mapsys img {
-  height: 300px;
-  width: auto; }
-
-.gaming {
-  background-color: black;
-  display: flexbox; }
-
-.gaming img {
-  width: 300px; }
-
-.gaming div {
-  display: inline-block;
-  margin: 100px;
-  text-align: center; }
-
-.gaming ul li {
-  color: white; }
-
-.gaming h2 {
-  color: white; }
-
-.gaming h3 {
-  display: inline;
-  border: 2px solid red;
-  font-size: 20px;
-  color: white; }
-
-.gaming ul li a {
-  color: white;
-  text-decoration: none; }
-
-.oficina {
-  background-color: black;
-  display: flexbox; }
-
-.oficina img {
-  width: 300px; }
-
-.oficina div {
-  display: inline-block;
-  margin: 100px;
-  text-align: center; }
-
-.oficina ul li {
-  color: white; }
-
-.oficina h1 {
-  color: white; }
-
-.oficina h2 {
-  display: inline;
-  border: 2px solid red;
-  font-size: 20px;
-  color: white; }
-
-.oficina a {
-  color: white;
-  text-decoration: none; }
-
-.edicion {
-  background-color: black;
-  display: flexbox; }
-
-.edicion div {
-  display: inline-block;
-  margin: 100px;
-  text-align: center; }
-
-.edicion img {
-  width: 300px; }
-
-.edicion ul li {
-  color: white; }
-
-.edicion h2 {
-  color: white; }
-
-.edicion h3 {
-  display: inline;
-  border: 2px solid red;
-  font-size: 20px;
-  color: white; }
-
-.edicion a {
-  color: white;
-  text-decoration: none; }
-
-.mapsys {
-  background-color: black;
-  display: flexbox; }
-
-.mapsys div {
-  display: inline-block;
-  margin: 120px;
-  text-align: center; }
-
-.mapsys ul li {
-  color: white; }
-
-.mapsys h2 {
-  color: white; }
-
-.mapsys h3 {
-  display: inline;
-  border: 2px solid red;
-  font-size: 20px;
-  color: white; }
-
-.mapsys a {
-  color: white;
-  text-decoration: none; }
 
 footer {
   background-color: grey;
