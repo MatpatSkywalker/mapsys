@@ -253,3 +253,23 @@ $color_bordes:red;
 .reci h2{
     @include reci(center, white )
 }
+
+@mixin donde($centro){
+    text-align: $centro;
+}
+
+.edicion h2{
+    @include donde(center)
+}
+
+.oficina h1{
+    @include donde(center)
+}
+
+.gaming h2{
+    @include donde(center)
+}
+
+.mapsys h2{
+    @include donde(center)
+}

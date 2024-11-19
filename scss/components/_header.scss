@@ -1,7 +1,12 @@
 .navbar {
     background-color:$color_fondo;
+
+    a{
+        color: $color-letras;
+    }
+
+    img{
+        width: 100px;
+    }
 }
 
-.navbar a {
-    color: $color-letras;
-}
